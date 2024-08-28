@@ -9,10 +9,10 @@ async function fetchComments() {
                 <div class="swiper-slide comment__slide bg-[#ffffff05] border border-solid border-[#33353d] rounded-xl relative p-6 pb-10">
         <div class="slide__top flex flex-row justify-between">
           <div class="comm__info flex flex-row gap-2">
-            <img src="/images/info.webp" class="w-6 h-6" alt="info">
+            <img src="./images/info.webp" class="w-6 h-6" alt="info">
             <span class="text-sm text-[#959ba2]">${comment.name}</span>
           </div>
-          <img src="/images/virgol.webp" alt="">
+          <img src="./images/virgol.webp" alt="">
         </div>
         <div class="com__text"><span class="text-xs text-[whitesmoke] ">${comment.comment}</span></div>
         
